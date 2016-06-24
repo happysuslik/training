@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Special+Elite|Rye&subset=latin,latin-ext);
+
+body {
+  padding: 0 10% 0 10%;
+}
+
+.createBorder(@px, @type, @colorStyle) {
+  border-bottom: @px @type @colorStyle;
+}
+
+.createColumnRule(@val, @val2, @color) {
+  -moz-column-rule: @val @val2 @color;
+  -webkit-column-rule: @val @val2 @color;
+  column-rule: @val @val2 @color;
+}
+
+.column-count(@count) {
+  -moz-column-count: @count;
+  -webkit-column-count: @count;
+  column-count: @count;
+}
+
+
+header {
+  h1 {
+    font-family: 'Rye', cursive;
+    font-size: 3em;
+    text-align: center;
+  }
+}
+
+nav {
+  display: -moz-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-orient: horizontal;
+  -moz-box-orient: horizontal;
+  width: 100%;
+  box-flex: 1.0;
+  border-top: 2px solid #D5D5D5;
+  .createBorder(2px, solid, #D5D5D5);
+
+  p {
+    margin: 15px;
+  }
+}
+
+h1 {
+  font-family: 'Special Elite', cursive;
+}
+
+p {
+  font-family: 'Special Elite', cursive;
+}
+
+content {
+  h1 {
+    .createBorder(2px, solid, #D5D5D5);
+    width: 30%;
+  }
+}
+
+section {
+  h1, p {
+    .column-count(3);
+    .createColumnRule(2px, solid, #D5D5D5);
+  }
+}
+
+footer {
+  h1 {
+    .createBorder(2px, solid, #D5D5D5);
+  }
+}
+
+footer {
+  p {
+    .column-count(2);
+    .createColumnRule(2px, solid, #D5D5D5);
+  }
+}

@@ -1,0 +1,14 @@
+CACHE MANIFEST
+# v2.2
+# CACHE - Кэшируемые страницы
+CACHE:
+../../first.html
+../../calc.html
+../css/styleCalc.css
+../javascripts/calc.js
+
+
+
+# NETWORK - страницы всегда запрашиваются с сервера.
+NETWORK:
+../../online.html

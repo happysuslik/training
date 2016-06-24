@@ -1,0 +1,42 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+header {
+    font-family: 'Raleway', sans-serif;
+    background: black;
+}
+
+div.row > h2 {
+    color: snow;
+}
+h4, h2 {
+    font-family: 'Raleway', sans-serif;
+    color: snow;
+}
+
+div > h2, article > h2 {
+    color: black;
+}
+
+main {
+    font-family: 'Raleway', sans-serif;
+}
+footer {
+    font-family: 'Raleway', sans-serif;
+    background: snow;;
+}
+blockquote {
+    font-family: 'Raleway', sans-serif;
+    background: #dddddd;
+    margin: 10px;
+
+}
+
+a {
+    color: black;
+}
+
+img {
+    background: no-repeat;
+    background-size: cover;
+}
+

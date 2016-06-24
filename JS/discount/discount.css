@@ -1,0 +1,12 @@
+#discount {
+    top: 30%;
+    left: 45%;
+    margin-top: 10px;
+    position: absolute;
+    width: 200px;
+    padding: 5px;
+}
+body {
+    background: url("img/smile.jpg") 15% 15%;
+    background-size: cover;
+}
